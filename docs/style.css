@@ -1,0 +1,132 @@
+html, body {
+  display: flex;
+  margin: auto;
+  background-color: #e9e9e9;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+}
+
+canvas {
+  border-radius: 5px;
+}
+
+.v {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.h {
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hv-c {
+  justify-content: center;
+}
+
+.hv-l {
+  justify-content: flex-start;
+}
+
+.hv-r {
+  justify-content: flex-end;
+}
+
+.vh-c {
+  align-items: center;
+}
+
+.vh-t {
+  align-items: flex-start;
+}
+
+.vh-b {
+  align-items: flex-end;
+}
+
+.p {
+  margin: 15px;
+  padding: 15px;
+}
+
+.p-out {
+  box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(100,70,70,0.12);
+}
+
+.p-in {
+  box-shadow: inset -10px -10px 15px rgba(255,255,255,0.5), inset 10px 10px 15px rgba(100,70,70,0.12);
+}
+
+.p-round {
+  border-radius: 15px;
+}
+
+.p-fill {
+  flex: 1 0 auto;
+}
+
+.slider-out {
+  margin: 15px;
+  box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(100,70,70,0.12);
+}
+
+.slider-round{
+  border-radius: 15px;
+}
+
+.slider-in {
+  margin: 15px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: inset -10px -10px 15px rgba(255,255,255,0.5), inset 10px 10px 15px rgba(100,70,70,0.12);
+}
+
+.slider-knob {
+  height: 30px;
+  padding: 0 15px 0 15px;
+  border-radius: 15px;
+  background-color: #ff0cab;
+}
+
+.butt {
+  cursor: pointer;
+  box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(100,70,70,0.12);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 5px;
+  transition: background-color .4s;
+}
+
+.butt:active {
+  box-shadow: inset -10px -10px 15px rgba(255,255,255,0.5), inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+
+.txt {
+  margin: 5px 15px 5px 15px;
+}
+
+.hide {
+  display: none;
+}
+
+.unhide {
+  display: flex;
+}
