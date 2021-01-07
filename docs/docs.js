@@ -47,8 +47,8 @@ function draw() {
 function setupScene(){
   let beingStartAmount = int(width*height/1600);
   beingStartAmount -= beingStartAmount % 100;
+  beingStartAmount = max(beingStartAmount, 100);
   let blessedStartAmount = beingStartAmount / 100;
-  print(beingStartAmount);
   for(let b = 0; b < beingStartAmount; b++){
     beings.push(new Being(random(0,width), random(0,height), random(0,2*PI),0.5,5));
   }

@@ -1,9 +1,10 @@
 function setupHTML(){
   main = new Main();
-  let mainGroup = new VertGroup(main);
+  let mainOGroup = new VertGroup(main);
+  let mainGroup = new VertGroup(mainOGroup);
   
   let canvPanel = new Panel(mainGroup);
-  let canv = new Canvas(canvPanel, [max(500,windowWidth-200), max(500,windowHeight-200)]);
+  let canv = new Canvas(canvPanel, [max(300,windowWidth-200), max(300,windowHeight-200)]);
   
   let bottomGroup = new HorzGroup(mainGroup, 9);
   
