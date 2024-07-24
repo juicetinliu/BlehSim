@@ -10,7 +10,7 @@ function setupHTML(){
   
   let button1 = new Button(bottomGroup, ['#e9e9e9', '#FFFFFF'], 'https://github.com/juicetinliu/BlehSim', 'github.png', 'Visit Github repo');
   
-  let button2 = new Button(bottomGroup, ['#e9e9e9', '#FFFFFF'], 'https://p5js.org', 'https://p5js.org/assets/img/asterisk-01.png', 'P5.js');
+  let button2 = new Button(bottomGroup, ['#e9e9e9', '#FFFFFF'], 'https://p5js.org', 'https://juicetinliu.github.io/assets/icons/p5.png', 'P5.js');
   
   main.createHTML();
 }
